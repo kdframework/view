@@ -1,6 +1,6 @@
 {
   "name": "kdf-view",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Interactive UI component of KDFramework",
   "main": "lib/index.js",
   "repository": {
@@ -16,8 +16,9 @@
   "author": "Umut Sirin <u@kd.io>",
   "license": "MIT",
   "dependencies": {
-    "kdf-dom-operations": "0.0.x",
-    "kdf-event-emitter": "0.0.x"
+    "kdf-dom": "0.0.x",
+    "kdf-event-emitter": "0.0.x",
+    "kdf-pistachio": "0.0.x"
   },
   "devDependencies": {
     "coffee-script": "^1.8.0",
